@@ -8,22 +8,23 @@
     <%= link_to "Home", root_path, class: "navbar-vani-item navbar-vani-link" %>
     <%= link_to "About", about_path, class: "navbar-vani-item navbar-vani-link" %>
     <%= link_to "Services", services_path, class: "navbar-vani-item navbar-vani-link" %>
-    <%= link_to "Careers", careers_path, class: "navbar-vani-item navbar-vani-link" %>
     <%= link_to "News", news_path, class: "navbar-vani-item navbar-vani-link" %>
     <%= link_to "Contant us", contact_us_path, class: "navbar-vani-item navbar-vani-link" %>
 
   </div>
+
+   <!-- Dropdown list appearing on mobile only -->
   <div class="navbar-vani-item hidden-md hidden-lg">
     <div class="dropdown">
       <i class="fa fa-bars dropdown-toggle" data-toggle="dropdown"></i>
       <ul class="dropdown-menu dropdown-menu-right navbar-vani-dropdown-menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Careers</a></li>
-        <li><a href="#">News</a></li>
-        <li><a href="#">Contact us</a></li>
-      </ul>
+        <li> <%= link_to "Home", root_path, class: "navbar-vani-item navbar-vani-link" %></li>
+        <li> <%= link_to "About", about_path, class: "navbar-vani-item navbar-vani-link" %></li>
+        <li> <%= link_to "Services", services_path, class: "navbar-vani-item navbar-vani-link" %></li>
+        <li> <%= link_to "News", news_path, class: "navbar-vani-item navbar-vani-link" %></li>
+        <li> <%= link_to "Contact us", contact_us_path, class: "navbar-vani-item navbar-vani-link" %></li>
+        </ul>
     </div>
   </div>
 </div>
+
