@@ -1,3 +1,9 @@
 .main{
   padding: 50px 250px;
+
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  background-image: url('canva.png');
+
 }
