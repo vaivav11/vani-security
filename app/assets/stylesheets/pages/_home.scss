@@ -8,6 +8,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  background-image: linear-gradient(
+    -225deg,
+    rgba(0,101,168,0.2) 0%,
+    rgba(0,36,61,0.2) 50%),
+  url('https://static.pexels.com/photos/460672/pexels-photo-460672.jpeg');
 }
 .banner h1 {
   font-size: 55px;
