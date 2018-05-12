@@ -29,7 +29,7 @@
 .navbar-vani-link {
   color: white;
   font-size: 18px;
-  padding: 60px;
+  padding: 5.3rem;
 }
 .navbar-vani-link:hover {
   color: rgb(195, 198, 201);
@@ -67,4 +67,8 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+
+.navbar-vani i {
+  color: white;
 }
