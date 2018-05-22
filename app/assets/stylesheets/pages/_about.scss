@@ -4,10 +4,10 @@
   height: 100vh;
   /* if you have a 70px navbar => height: calc(100vh - 70px); */
   background-size: cover !important;
-  background-image: url('canva.png');
+  background-image: url(asset-path('canva.png'));
 }
 
-.main-content {
+.main-content-about {
   background-color: rgba(255,255,255, 0.4);
   height: 100%;
   padding: 100px;
