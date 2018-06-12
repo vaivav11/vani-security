@@ -13,6 +13,7 @@
     rgba(0,101,168,0.2) 0%,
     rgba(0,36,61,0.2) 50%),
   url(asset-path('background-image.jpg'));
+
 }
 .banner h1 {
   font-size: 55px;
@@ -31,6 +32,11 @@
 .banner-content {
   background-color: rgba(255,255,255, 0.6);
   padding: 50px 110px 15px 100px;
+  margin: 0 auto;
+}
+
+.img-responsive {
+  margin: 0 auto;
 }
 
 
