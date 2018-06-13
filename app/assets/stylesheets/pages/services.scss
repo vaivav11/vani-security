@@ -4,3 +4,14 @@
   padding: 100px;
   margin-top: 0;
 }
+
+@media only screen and (max-width: 1100px) {
+    .main {
+      padding: 0px 30px;
+    }
+
+    .main-content-services {
+      padding: 15px;
+      background: rgba(255,255,255, 0.25);
+    }
+}
